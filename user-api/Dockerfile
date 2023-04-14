@@ -5,5 +5,4 @@ COPY . .
 RUN npm install 
 EXPOSE 1004
 ENV MONGO_URL=""
-ENV ADMIN_EMAIL=""
 CMD ["npm","start"]
